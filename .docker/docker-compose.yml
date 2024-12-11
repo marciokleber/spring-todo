@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_USER: springtodo
+      POSTGRES_PASSWORD: springtodo
+      POSTGRES_DB: springtodo
+    ports:
+      - "5432:5432"
