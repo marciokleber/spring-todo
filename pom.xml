@@ -30,11 +30,15 @@
         <java.version>17</java.version>
     </properties>
     <dependencies>
+
+        <!-- SPRING STARTER WEB DEPENDENCY -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+
+        <!-- SPRING STARTER TEST DEPENDENCY -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
